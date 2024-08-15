@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(213, 213, 110);
+  /*TODO: {background-image: url("c:\Users\Shawn\Downloads\bruin_bear_img.svg");}*/
+}
+
+h1 {
+  color:rgb(6, 112, 188); 
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(6, 112, 188);
+  margin: 10px; 
+  text-align: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.login_button { 
+  color:black; 
+  font-size: 15px;
+  position: relative;  
+  -ms-transform: translate(-10%, -100%);
+  transform: translate(500%, 50%);
+}
+
+.login_button { 
+  color:black; 
+  font-size: 15px;
+  position: relative;  
+  -ms-transform: translate(-10%, -100%);
+  transform: translate(550%, 50%);
+}
+
+.createAcc_button {
+  color:black; 
+  font-size: 15px;
+  position: relative;  
+  -ms-transform: translate(-10%, -100%);
+  transform: translate(240%, 100%);
+}
+
+.get_UserInfo {
+    color:blue; 
+    font-size: 15px;
+    -ms-transform: translate(-20%, -100%);
+    transform: translate(42%, 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
